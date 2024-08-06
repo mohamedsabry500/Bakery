@@ -1,0 +1,460 @@
+*{
+    box-sizing: border-box;
+}
+ /*  start home  */
+
+.container
+{
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+
+.home
+{
+position: relative;
+  background-image: url(../images/drew-coffman-1872.jpg);
+height: 100vh;
+position: relative;
+background-position: center center;
+}
+.child
+{
+  display: flex;
+justify-content:space-between;
+align-items: center;
+margin-top: 30px;
+
+   
+}
+li:hover a
+{
+    color: #b3b08a;
+}
+
+.logo
+{
+    
+    width: 200px;
+}
+.logo img{
+    width: 100%;
+}
+ul
+{
+    
+   display: flex;
+
+
+
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+body
+{
+    margin: 0;
+}
+a
+{
+ 
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.home .meno
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+
+}
+.home h3
+{
+font-size: 22px;
+color: white;
+
+}
+.home h1{
+font-size: 76px;
+color: white;
+margin: 0;
+
+
+}
+.home p
+{
+font-size: 24px;
+color: white;
+
+
+}
+.home button{
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+  
+    margin: 7px;
+    transition: all 0.5s;
+    
+}
+.home .btn1
+{
+background-color: #8E7754;
+border: transparent;
+}
+.home .btn2
+{
+background-color: transparent;
+border-color: white;
+}
+.home button:hover
+{
+    color: black;
+    background-color: white;
+}
+
+
+/*  end home  */
+/* start about */
+.about
+{
+    padding: 80px 0;
+}
+.about .icon img
+{
+    width: 40px;
+    height: 40px;
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 80px 0;
+   
+}
+.about .image 
+{
+    
+   width: 45%;
+}
+.about .text
+{
+    width: 45%;
+}
+.about .image img{
+    width: 100%;
+   
+}
+.icon div 
+{
+    display: flex; 
+    align-items: center;
+    
+}
+.icon img 
+{
+    border: gray 1px solid;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+
+/* end about */
+/* start location */
+.offer
+{
+    background-color:#f8f8f8;
+    padding: 80px 0;
+}
+.offer .image
+{
+   
+    width: 45%;
+}
+.offer .image img{
+    width: 100%;
+}
+.offer .call
+{
+ 
+    width: 45%;
+}
+.offer .container
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* end location */
+/* start baking */
+.gallery .sweet
+{
+  display: flex;    
+}
+.gallery .sweet img 
+{
+width: 100%;
+}
+
+.gallery .bak
+{
+    text-align: center;
+ 
+ 
+ 
+}
+
+
+.gallery .container
+{
+    padding: 50px;
+}
+.gallery .dona
+{
+    text-align: center;
+    width: calc(100% / 3);
+    padding: 15px;
+}
+/* end baking */
+/* start blog */
+.blog{
+    background-color:#f8f8f8;
+    padding: 80px 0;
+}
+.blog .icon img
+{
+    width: 40px;
+    height: 40px;
+}
+.blog .image{
+    width: 45%;
+}
+.blog .image iframe
+{
+   
+   width: 100%;
+ 
+
+}
+
+.blog .icon img 
+{
+    background-color: #8E7754;
+}
+.blog .text
+{
+    width: 45%;
+}
+
+.blog .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ /* end blog */
+/* start contact */
+.contact{
+background-color: #403d38;}
+.emogy a
+{
+    color: #969696;
+
+    font-size: 16px;
+    
+}
+ .contact .box
+{
+    
+  color: #969696;
+
+    width: 25%;
+    padding: 0 20px;
+}
+.contact .container
+{
+   padding: 50px 0;
+    display: flex;
+    
+
+}
+
+
+.contact .box h1
+{
+    color: white;
+    font-size: 18px;
+}
+.contact .box .tack4
+{
+    background-image: url(../images/contact-details-map.png);
+ 
+}
+.contact .box .tack4 .emogy div p
+{
+    padding: 0;
+    margin: 0;
+}
+.contact .box .tack4 .emogy div
+{
+    padding: 10px;
+}
+.contact .box p
+{
+    padding: 10px 0;
+    border:#969696 solid 0.3px ;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+   
+
+}
+.contact .box .tack1 p
+{
+
+    border: none;
+}
+
+
+
+/* end contact */
+/* start logo  */
+.pic .stiker img
+{
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    background-color: #484540;
+    margin: 0 5px;
+}
+.pic 
+{
+   background-color: #353330;
+}
+.pic .stiker 
+{
+
+    display: flex;
+    justify-content: center;
+ 
+}
+.pic .task img
+{
+    transition: all 0.5s;
+}
+.pic .task
+{
+margin: auto;
+}
+.pic .task p{
+    text-align: center;
+    color: gray;
+}
+.sti1:hover img
+{
+background-color: blue;
+
+}
+.sti2:hover img{
+background-color: tomato;
+}
+.sti3:hover img
+
+{
+    background-color: #9cc0f9;
+}
+
+.sti4:hover img{
+    background-color: #9cc0f9;
+}
+
+/* end logo */
+p,h1,h3
+{
+    font-family: "Alegreya", serif;
+}
+@media (max-width:767px){
+.about .container
+    {
+        flex-direction: column;
+
+    }
+    .about .image 
+    {
+        width: 100%;
+    }
+    .about .text
+    {
+        width: 100%;
+    }
+    .offer .container
+    {
+        flex-direction: column;
+
+    }
+  .offer .call
+    {
+        width: 100%;
+    }
+   .offer .image 
+    {
+        width: 100%;
+    }
+    .gallery .sweet
+    {
+        flex-direction: column;
+
+    }
+   .gallery .dona
+    { 
+       width: 100%;
+    }
+    .blog .container
+    {
+        flex-direction: column;
+
+    }
+  .blog .text
+    {
+       
+        width: 100%;
+    }
+   .blog .image 
+    {
+        width: 100%;
+    }
+    .contact .container
+    {
+       
+        flex-direction: column;
+    }
+    .contact .box
+    {
+        width: 100%;
+    }
+    .pic 
+    {
+        width: 100%;
+    }
+
+   .home .container
+    {
+        width: 100%;
+    }
+    
+}
+
+
+
+
